@@ -1,0 +1,656 @@
+{
+	"Name": "Poll",
+	"SpanContext": {
+		"TraceID": "e3c7372288d1f705ed177b54de88b20e",
+		"SpanID": "281e5a0bb2742152",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "e3c7372288d1f705ed177b54de88b20e",
+		"SpanID": "f18748f6298391e6",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": [
+		{
+			"Key": "request.n",
+			"Value": {
+				"Type": "STRING",
+				"Value": "9000"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "fib"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.8.0"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "fib",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "Fibonacci",
+	"SpanContext": {
+		"TraceID": "e3c7372288d1f705ed177b54de88b20e",
+		"SpanID": "32d2e6e23f662b92",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "e3c7372288d1f705ed177b54de88b20e",
+		"SpanID": "6910ee250ab5cb4f",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "fib"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.8.0"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "fib",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "Write",
+	"SpanContext": {
+		"TraceID": "e3c7372288d1f705ed177b54de88b20e",
+		"SpanID": "6910ee250ab5cb4f",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "e3c7372288d1f705ed177b54de88b20e",
+		"SpanID": "f18748f6298391e6",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 1,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "fib"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.8.0"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "fib",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "Run",
+	"SpanContext": {
+		"TraceID": "e3c7372288d1f705ed177b54de88b20e",
+		"SpanID": "f18748f6298391e6",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 2,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "fib"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.8.0"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "fib",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "Poll",
+	"SpanContext": {
+		"TraceID": "6be9b988275cb8fdfb37caf72c06baa1",
+		"SpanID": "7eb3463bc2e9fe13",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "6be9b988275cb8fdfb37caf72c06baa1",
+		"SpanID": "161130fe3cc4d60b",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": [
+		{
+			"Key": "request.n",
+			"Value": {
+				"Type": "STRING",
+				"Value": "9"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "fib"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.8.0"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "fib",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "Fibonacci",
+	"SpanContext": {
+		"TraceID": "6be9b988275cb8fdfb37caf72c06baa1",
+		"SpanID": "92106eef324a54f2",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "6be9b988275cb8fdfb37caf72c06baa1",
+		"SpanID": "e9934dbfef56b546",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "fib"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.8.0"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "fib",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "Write",
+	"SpanContext": {
+		"TraceID": "6be9b988275cb8fdfb37caf72c06baa1",
+		"SpanID": "e9934dbfef56b546",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "6be9b988275cb8fdfb37caf72c06baa1",
+		"SpanID": "161130fe3cc4d60b",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 1,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "fib"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.8.0"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "fib",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "Run",
+	"SpanContext": {
+		"TraceID": "6be9b988275cb8fdfb37caf72c06baa1",
+		"SpanID": "161130fe3cc4d60b",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 2,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "fib"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.8.0"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "fib",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
